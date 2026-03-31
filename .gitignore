@@ -1,0 +1,13 @@
+echo > .gitignore
+```
+
+Then open the `.gitignore` file that just appeared in your PyCharm file tree on the left, and paste this inside it:
+```
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.pkl
+.idea/
