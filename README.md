@@ -60,10 +60,15 @@ This project demonstrates how ML-based threat detection can be applied in:
 4. Open Postman and send a POST request to http://127.0.0.1:5000/predict
 
 ## ⚠️ Known Limitations
+- Model reports ~100% accuracy on the dataset, likely due to overfitting 
+  or data similarity between train/test split — real-world performance will vary
 - Model struggles with social engineering emails that use 
   professional language (e.g. fake job offers)
 - URL analysis is not yet implemented
 - Training dataset lacks job scam examples
+
+## Demo
+![API Demo](demo.png)
 
 ## Author
 Arsalan Khan Pathan | B-Tech Student | Cybersecurity Enthusiast
