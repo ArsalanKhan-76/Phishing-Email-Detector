@@ -59,5 +59,11 @@ This project demonstrates how ML-based threat detection can be applied in:
 3. Run the app: python fake_email_detector__original.py
 4. Open Postman and send a POST request to http://127.0.0.1:5000/predict
 
+## ⚠️ Known Limitations
+- Model struggles with social engineering emails that use 
+  professional language (e.g. fake job offers)
+- URL analysis is not yet implemented
+- Training dataset lacks job scam examples
+
 ## Author
 Arsalan Khan Pathan | B-Tech Student | Cybersecurity Enthusiast
